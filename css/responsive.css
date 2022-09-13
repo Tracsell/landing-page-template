@@ -1,0 +1,184 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1400px) { 
+	.container{
+		max-width: 1270px;
+	}
+}
+
+@media (max-width: 1399px) { 
+	html{
+		font-size: 45%;
+	}
+	h1{
+		font-size: 7rem;
+	}
+	.link{
+		margin-bottom: 4rem;
+	}
+	.hero_area{
+		min-height: auto;
+	}
+	.hero_img{
+		max-width: 30rem;
+	}
+	.hero_area p{
+		font-size: 1.8rem;
+	}
+	.hero_area .bottom{
+		padding-top: 2.5rem;
+	}
+	.hero_area .mouse{
+		margin-top: 2.5rem;
+	}
+	.hero_area .shape4{
+		bottom: -9rem;
+	}
+	.coupon_area .shape2{
+		top: -30.5rem;
+	}
+	.coupon_area .shape3{
+		width: 4rem;
+		right: 2rem;
+	}
+	.history .shape2{
+		top: -7.7rem;
+	}
+	.history .shape1{
+		width: 10rem;
+		left: 0;
+		bottom: 6rem;
+	}
+	.data_table .btn{
+		height: 7.7rem;
+	}
+}
+
+@media (max-width: 991px) {
+	#menu{
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+	.ofcavas-menu {
+		display: block;
+	}
+	
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px){
+	html{
+		font-size: 40%;
+	}
+	h1{
+		font-size: 5rem;
+	}
+	h2{
+		font-size: 3.2rem;
+	}
+	.star{
+		max-width: 10rem;
+	}
+	.hero_area .shape4 {
+		max-width: 16rem;
+	}
+	.hero_area .shape1{
+		left: 16%;
+	}
+	.hero_area .shape2 {
+		right: 19.5rem;
+		bottom: 8.5rem;
+	}
+	.hero_area .shape3{
+		right: 9rem;
+	}
+	.product_table br{
+		display: none;
+	}
+	.product_table th:last-child {
+		width: 33%;
+	}
+	.product_table img{
+		max-width: 8rem;
+	}
+	.product_table th{
+		padding: 1.8rem 1.4rem;
+	}
+	.data_table img{
+		max-width: 10rem;
+	}
+	.data_table .btn{
+		width: 17rem;
+	}
+	.data_table .btn img{
+		width: 2rem;
+	}
+	.coupon_area .shape2 {
+		top: -14.5rem;
+		max-width: 15rem;
+	}
+	.history .shape2 {
+		top: -8.7rem;
+		max-width: 16rem;
+	}
+	.coupon_area .shape1 {
+		top: 0.8rem;
+		left: 2.8rem;
+	}
+	.coupon_area .shape3{
+		display: none;
+	}
+	.history .shape1{
+		left: 25rem;
+		bottom: 0;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px){
+	html{
+		font-size: 35%;
+	}
+	.product_table th {
+		padding: 1rem;
+	}
+	.product_table td{
+		padding: 1rem;
+	}
+	.product_table th:first-child {
+		width: 1%;
+	}
+	.product_table img {
+		max-width: 6rem;
+	}
+	input{
+		width: 21rem;
+	}
+	.history_table th{
+		padding: 1rem;
+		border-width: 2px;
+	}
+	.history_table td{
+		padding: 1rem;
+		border-width: 0 2px 2px 2px;
+	}
+	.history_table th img{
+		width: 1.3rem;
+	}
+	.data_table td{
+		padding: 1.5rem 1rem;
+	}
+	.data_table td:first-child{
+		padding: 0;
+	}
+	.data_table td:last-child{
+		padding: 0;
+	}
+	.data_table .btn{
+		height: 30px;
+		margin-left: .5rem;
+	}
+}
